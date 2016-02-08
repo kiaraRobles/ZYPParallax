@@ -434,8 +434,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kiaraRobles.ZYPParallax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ZYPParallax/BridgeHeader.h;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = ZYPParallax/BridgeHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PODS_ROOT}/BridgeHeader.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "${PODS_ROOT}/BridgeHeader.h";
 			};
 			name = Debug;
 		};
@@ -450,8 +450,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kiaraRobles.ZYPParallax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ZYPParallax/BridgeHeader.h;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = ZYPParallax/BridgeHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PODS_ROOT}/BridgeHeader.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "${PODS_ROOT}/BridgeHeader.h";
 			};
 			name = Release;
 		};
