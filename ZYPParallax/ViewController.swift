@@ -35,12 +35,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             for var index = 0; index < result.count; ++index
             {
                 let currentThumbnail = result[index]
-                print(currentThumbnail)
                 
                 var title: String
                 var image: UIImage
-                if (currentThumbnail != nil) {
-                    title = (currentThumbnail?.title)!
+                if (currentThumbnail?.title != nil) {
+                    title = currentThumbnail!.title
                     image = currentThumbnail!.image
                 }
                 else {

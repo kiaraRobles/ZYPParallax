@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E4AF72F8B547ACE32501683B'
+               BlueprintIdentifier = 'D51D5EDEFD7860E21EFACE76'
                BlueprintName = 'Pods-ZYPParallax'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_ZYPParallax.framework'>
