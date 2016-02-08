@@ -1,0 +1,6 @@
+framework module Pods_ZYPParallax {
+  umbrella header "Pods-ZYPParallax-umbrella.h"
+
+  export *
+  module * { export * }
+}

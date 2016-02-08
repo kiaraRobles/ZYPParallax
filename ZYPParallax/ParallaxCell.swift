@@ -1,5 +1,5 @@
 //
-//  ImageCell.swift
+//  ParallaxCell.swift
 //  ZYPParallax
 //
 //  Created by Kiara Robles on 2/6/16.
@@ -8,44 +8,44 @@
 
 import UIKit
 
-class ImageCell: UITableViewCell
+class ParallaxCell: UITableViewCell
 {
-    @IBOutlet weak var lblTitle: UILabel!
-    @IBOutlet weak var imgBack: UIImageView!
-    @IBOutlet weak var imgBackTopConstraint: NSLayoutConstraint!
-    @IBOutlet weak var imgBackBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var cellImageView: UIImageView!
+    @IBOutlet weak var constraintTopImage: NSLayoutConstraint!
+    @IBOutlet weak var constraintBottomImage: NSLayoutConstraint!
     
-    let imageParallaxFactor: CGFloat = 20
-    var imgBackTopInitial: CGFloat!
-    var imgBackBottomInitial: CGFloat!
+    let imageParallaxConstant: CGFloat = 30
+    var imageTop: CGFloat!
+    var imageBottom: CGFloat!
     
     var model: CustomCell!
     {
         didSet {
-            self.updateView()
+            self.updateCellView()
         }
     }
     
     override func awakeFromNib()
     {
         self.clipsToBounds = true
-        self.imgBackBottomConstraint.constant -= 2 * imageParallaxFactor
-        self.imgBackTopInitial = self.imgBackTopConstraint.constant
-        self.imgBackBottomInitial = self.imgBackBottomConstraint.constant
+        self.constraintBottomImage.constant -= imageParallaxConstant * 2
+        self.imageTop = self.constraintTopImage.constant
+        self.imageBottom = self.constraintBottomImage.constant
     }
     
-    func updateView()
+    func updateCellView()
     {
-        self.imgBack.image = self.model.image
-        self.lblTitle.text = self.model.title
+        self.cellImageView.image = self.model.image
+        self.label.text = self.model.title
     }
     
-    func setBackgroundOffset(offset:CGFloat)
+    func imageOffset(offset:CGFloat)
     {
         let boundOffset = max(0, min(1, offset))
-        let pixelOffset = (1 - boundOffset) * 2 * imageParallaxFactor
-        self.imgBackTopConstraint.constant = self.imgBackTopInitial - pixelOffset
-        self.imgBackBottomConstraint.constant = self.imgBackBottomInitial + pixelOffset
+        let pixelOffset = (1 - boundOffset) * imageParallaxConstant * 2
+        self.constraintTopImage.constant = self.imageTop - pixelOffset
+        self.constraintBottomImage.constant = self.imageBottom + pixelOffset
     }
 }
 

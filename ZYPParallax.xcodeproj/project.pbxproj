@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F173C35F84559BB092757A /* Pods_ZYPParallax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E19253E2F609183F8E3A80 /* Pods_ZYPParallax.framework */; };
+		E9C56C7B1C668AB6009B71CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C7A1C668AB6009B71CE /* AppDelegate.swift */; };
+		E9C56C7D1C668AB6009B71CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C7C1C668AB6009B71CE /* ViewController.swift */; };
+		E9C56C821C668AB6009B71CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C811C668AB6009B71CE /* Assets.xcassets */; };
+		E9C56C851C668AB6009B71CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C831C668AB6009B71CE /* LaunchScreen.storyboard */; };
+		E9C56C901C668AB6009B71CE /* ZYPParallaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C8F1C668AB6009B71CE /* ZYPParallaxTests.swift */; };
+		E9F10C711C668D5E000AA82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F10C6F1C668D5E000AA82B /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E9F10C731C668D9A000AA82B /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F10C721C668D9A000AA82B /* ParallaxCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E9F10C751C668DCD000AA82B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F10C741C668DCD000AA82B /* CustomCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E9F10C7C1C66DFD3000AA82B /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F10C7B1C66DFD3000AA82B /* Thumbnail.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9C56C8C1C668AB6009B71CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9C56C6F1C668AB6009B71CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C56C761C668AB6009B71CE;
+			remoteInfo = ZYPParallax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E910AA311C680234001AD2A4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83304E1C8AD252F8423E60CE /* Pods-ZYPParallax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYPParallax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYPParallax/Pods-ZYPParallax.debug.xcconfig"; sourceTree = "<group>"; };
+		AB6B80BA9FDE7E43BE0E184C /* Pods-ZYPParallax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYPParallax.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYPParallax/Pods-ZYPParallax.release.xcconfig"; sourceTree = "<group>"; };
+		D0E19253E2F609183F8E3A80 /* Pods_ZYPParallax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYPParallax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C56C771C668AB6009B71CE /* ZYPParallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPParallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C56C7A1C668AB6009B71CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9C56C7C1C668AB6009B71CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9C56C811C668AB6009B71CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9C56C841C668AB6009B71CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9C56C861C668AB6009B71CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C56C8B1C668AB6009B71CE /* ZYPParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C56C8F1C668AB6009B71CE /* ZYPParallaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYPParallaxTests.swift; sourceTree = "<group>"; };
+		E9C56C911C668AB6009B71CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F10C701C668D5E000AA82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F10C721C668D9A000AA82B /* ParallaxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
+		E9F10C741C668DCD000AA82B /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E9F10C7A1C66ACAF000AA82B /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		E9F10C7B1C66DFD3000AA82B /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C56C741C668AB6009B71CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F173C35F84559BB092757A /* Pods_ZYPParallax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C56C881C668AB6009B71CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A416C6956E8C2CB1EAF0FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E19253E2F609183F8E3A80 /* Pods_ZYPParallax.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C56C6E1C668AB6009B71CE = {
+			isa = PBXGroup;
+			children = (
+				E9C56C791C668AB6009B71CE /* ZYPParallax */,
+				E9C56C8E1C668AB6009B71CE /* ZYPParallaxTests */,
+				E9C56C781C668AB6009B71CE /* Products */,
+				F451C7A8DB5E3305E74FE77A /* Pods */,
+				80A416C6956E8C2CB1EAF0FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C56C781C668AB6009B71CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C56C771C668AB6009B71CE /* ZYPParallax.app */,
+				E9C56C8B1C668AB6009B71CE /* ZYPParallaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C56C791C668AB6009B71CE /* ZYPParallax */ = {
+			isa = PBXGroup;
+			children = (
+				E9C56C7A1C668AB6009B71CE /* AppDelegate.swift */,
+				E9C56C7C1C668AB6009B71CE /* ViewController.swift */,
+				E9F10C7B1C66DFD3000AA82B /* Thumbnail.swift */,
+				E9F10C721C668D9A000AA82B /* ParallaxCell.swift */,
+				E9F10C741C668DCD000AA82B /* CustomCell.swift */,
+				E9F10C6F1C668D5E000AA82B /* Main.storyboard */,
+				E9C56C811C668AB6009B71CE /* Assets.xcassets */,
+				E9C56C831C668AB6009B71CE /* LaunchScreen.storyboard */,
+				E9C56C861C668AB6009B71CE /* Info.plist */,
+				E9F10C7A1C66ACAF000AA82B /* BridgeHeader.h */,
+			);
+			path = ZYPParallax;
+			sourceTree = "<group>";
+		};
+		E9C56C8E1C668AB6009B71CE /* ZYPParallaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9C56C8F1C668AB6009B71CE /* ZYPParallaxTests.swift */,
+				E9C56C911C668AB6009B71CE /* Info.plist */,
+			);
+			path = ZYPParallaxTests;
+			sourceTree = "<group>";
+		};
+		F451C7A8DB5E3305E74FE77A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83304E1C8AD252F8423E60CE /* Pods-ZYPParallax.debug.xcconfig */,
+				AB6B80BA9FDE7E43BE0E184C /* Pods-ZYPParallax.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9C56C761C668AB6009B71CE /* ZYPParallax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C56C941C668AB6009B71CE /* Build configuration list for PBXNativeTarget "ZYPParallax" */;
+			buildPhases = (
+				CA3B8D48068797DC4A204ECE /* Check Pods Manifest.lock */,
+				E9C56C731C668AB6009B71CE /* Sources */,
+				E9C56C741C668AB6009B71CE /* Frameworks */,
+				E9C56C751C668AB6009B71CE /* Resources */,
+				9C0845EA70F18D8F052ABF26 /* Embed Pods Frameworks */,
+				C6659B8D1D701955ECCB0B8D /* Copy Pods Resources */,
+				E910AA311C680234001AD2A4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPParallax;
+			productName = ZYPParallax;
+			productReference = E9C56C771C668AB6009B71CE /* ZYPParallax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9C56C8A1C668AB6009B71CE /* ZYPParallaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C56C971C668AB6009B71CE /* Build configuration list for PBXNativeTarget "ZYPParallaxTests" */;
+			buildPhases = (
+				E9C56C871C668AB6009B71CE /* Sources */,
+				E9C56C881C668AB6009B71CE /* Frameworks */,
+				E9C56C891C668AB6009B71CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C56C8D1C668AB6009B71CE /* PBXTargetDependency */,
+			);
+			name = ZYPParallaxTests;
+			productName = ZYPParallaxTests;
+			productReference = E9C56C8B1C668AB6009B71CE /* ZYPParallaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9C56C6F1C668AB6009B71CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kiaraRobles;
+				TargetAttributes = {
+					E9C56C761C668AB6009B71CE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					E9C56C8A1C668AB6009B71CE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E9C56C761C668AB6009B71CE;
+					};
+				};
+			};
+			buildConfigurationList = E9C56C721C668AB6009B71CE /* Build configuration list for PBXProject "ZYPParallax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9C56C6E1C668AB6009B71CE;
+			productRefGroup = E9C56C781C668AB6009B71CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C56C761C668AB6009B71CE /* ZYPParallax */,
+				E9C56C8A1C668AB6009B71CE /* ZYPParallaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9C56C751C668AB6009B71CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F10C711C668D5E000AA82B /* Main.storyboard in Resources */,
+				E9C56C851C668AB6009B71CE /* LaunchScreen.storyboard in Resources */,
+				E9C56C821C668AB6009B71CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C56C891C668AB6009B71CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C0845EA70F18D8F052ABF26 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYPParallax/Pods-ZYPParallax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6659B8D1D701955ECCB0B8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYPParallax/Pods-ZYPParallax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3B8D48068797DC4A204ECE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9C56C731C668AB6009B71CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C56C7D1C668AB6009B71CE /* ViewController.swift in Sources */,
+				E9C56C7B1C668AB6009B71CE /* AppDelegate.swift in Sources */,
+				E9F10C751C668DCD000AA82B /* CustomCell.swift in Sources */,
+				E9F10C7C1C66DFD3000AA82B /* Thumbnail.swift in Sources */,
+				E9F10C731C668D9A000AA82B /* ParallaxCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C56C871C668AB6009B71CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C56C901C668AB6009B71CE /* ZYPParallaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9C56C8D1C668AB6009B71CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9C56C761C668AB6009B71CE /* ZYPParallax */;
+			targetProxy = E9C56C8C1C668AB6009B71CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9C56C831C668AB6009B71CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C56C841C668AB6009B71CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F10C6F1C668D5E000AA82B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F10C701C668D5E000AA82B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9C56C921C668AB6009B71CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9C56C931C668AB6009B71CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9C56C951C668AB6009B71CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83304E1C8AD252F8423E60CE /* Pods-ZYPParallax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ZYPParallax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kiaraRobles.ZYPParallax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ZYPParallax/BridgeHeader.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = ZYPParallax/BridgeHeader.h;
+			};
+			name = Debug;
+		};
+		E9C56C961C668AB6009B71CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6B80BA9FDE7E43BE0E184C /* Pods-ZYPParallax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ZYPParallax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kiaraRobles.ZYPParallax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ZYPParallax/BridgeHeader.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = ZYPParallax/BridgeHeader.h;
+			};
+			name = Release;
+		};
+		E9C56C981C668AB6009B71CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYPParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kiaraRobles.ZYPParallaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPParallax.app/ZYPParallax";
+			};
+			name = Debug;
+		};
+		E9C56C991C668AB6009B71CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYPParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kiaraRobles.ZYPParallaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPParallax.app/ZYPParallax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9C56C721C668AB6009B71CE /* Build configuration list for PBXProject "ZYPParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C56C921C668AB6009B71CE /* Debug */,
+				E9C56C931C668AB6009B71CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C56C941C668AB6009B71CE /* Build configuration list for PBXNativeTarget "ZYPParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C56C951C668AB6009B71CE /* Debug */,
+				E9C56C961C668AB6009B71CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C56C971C668AB6009B71CE /* Build configuration list for PBXNativeTarget "ZYPParallaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C56C981C668AB6009B71CE /* Debug */,
+				E9C56C991C668AB6009B71CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9C56C6F1C668AB6009B71CE /* Project object */;
+}
